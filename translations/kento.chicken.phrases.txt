@@ -1,0 +1,205 @@
+//**********************************************  Valid Colors	********************************************************
+// {NORMAL}, {DARKRED}, {PINK}, {YELLOW}, {GREEN}, {LIGHTGREEN}, {RED}, {GRAY}, {BLUE}, {DARKBLUE}, {PURPLE}, {ORANGE} *
+//**********************************************************************************************************************
+//                                     http://i.imgur.com/q2wb8Cu.png                                                  *
+//{NORMAL} = x01 | {DARKRED} = x02 | {PINK} = x03 | {GREEN} = x04 | {YELLOW} = x09 | {LIGHTGREEN} = x06 | {RED} = x07  *
+//{GRAY} = x08 | {BLUE} = x0B | {DARKBLUE} = x0C | {PURPLE} = x0E|  {ORANGE} = x10                                     *
+//**********************************************************************************************************************
+"Phrases"
+{
+	"Chicken Menu Title"
+	{
+		"#format"		""
+		"en"			"Chicken Pet Settings"
+		"zho"			"小雞寵物選單"
+	}
+	
+	"Model Menu Title"
+	{
+		"#format"		""
+		"en"			"Chicken Hats"
+		"zho"			"小雞裝飾"
+	}
+	
+	"Type Menu Title"
+	{
+		"#format"		""
+		"en"			"Chicken Pet Settings"
+		"zho"			"小雞類型"
+	}
+	
+	"Edit Menu Title"
+	{
+		"#format"		"{1:s}"
+		"en"			"Chicken Hat Editor\nCurrent Model:{1}"
+		"zho"			"小雞裝飾編輯器\n目前裝飾:{1}"
+	}
+	
+	"NO Model"
+	{
+		"#format"		""
+		"en"			"No Model"
+		"zho"			"沒有裝飾品"
+	}
+	
+	"NO Chicken"
+	{
+		"#format"		""
+		"en"			"No Chicken"
+		"zho"			"沒有小雞"
+	}
+	
+	"Normal Chicken"
+	{
+		"#format"		""
+		"en"			"Normal Chicken"
+		"zho"			"一般小雞"
+	}
+	
+	"Brown Chicken"
+	{
+		"#format"		""
+		"en"			"Brown Chicken"
+		"zho"			"褐色小雞"
+	}
+	
+	"Zombie Chicken"
+	{
+		"#format"		""
+		"en"			"Zombie Chicken"
+		"zho"			"殭屍小雞"
+	}
+	
+	"Birthday Chicken"
+	{
+		"#format"		""
+		"en"			"Birthday Chicken"
+		"zho"			"生日小雞"
+	}
+	
+	"Ghost Chicken"
+	{
+		"#format"		""
+		"en"			"Ghost Chicken"
+		"zho"			"鬼魂小雞"
+	}
+	
+	"Xmas Chicken"
+	{
+		"#format"		""
+		"en"			"Xmas Chicken"
+		"zho"			"聖誕小雞"
+	}
+	
+	"Bunny Chicken"
+	{
+		"#format"		""
+		"en"			"Bunny Chicken"
+		"zho"			"兔兔小雞"
+	}
+	
+	"Pumpkin Chicken"
+	{
+		"#format"		""
+		"en"			"Pumpkin Chicken"
+		"zho"			"南瓜小雞"
+	}
+
+	"Selected Hat"
+	{
+		"#format"		"{1:s}"
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Your chicken hat is {PINK}{1}."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}你的小雞裝飾品是{PINK}{1}."
+	}
+	
+	"No Selected Hat"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Your chicken hat is {PINK}No hat{NORMAL}."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}你的小雞裝飾品是{PINK}無裝飾品{NORMAL}."
+	}
+	
+	"No Selected Type"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Your chicken type is {PINK}No Chicken{NORMAL}."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}你的小雞種類是{PINK}沒有小雞{NORMAL}."
+	}
+	
+	"Selected Noraml Type"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Your chicken type is {PINK}Normal Chicken{NORMAL}."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}你的小雞種類是{PINK}一般小雞{NORMAL}."
+	}
+	
+	"Selected Brown Type"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Your chicken type is {PINK}Brown Chicken{NORMAL}."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}你的小雞種類是{PINK}褐色小雞{NORMAL}."
+	}
+	
+	"Selected Zombie Type"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Your chicken type is {PINK}Zombie Chicken{NORMAL}."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}你的小雞種類是{PINK}殭屍小雞{NORMAL}."
+	}
+	
+	"Selected Birthday Type"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Your chicken type is {PINK}Birthday Chicken{NORMAL}."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}你的小雞種類是{PINK}生日小雞{NORMAL}."
+	}
+	
+	"Selected Ghost Type"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Your chicken type is {PINK}Ghost Chicken{NORMAL}."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}你的小雞種類是{PINK}鬼魂小雞{NORMAL}."
+	}
+	
+	"Selected Xmas Type"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Your chicken type is {PINK}Xmas Chicken{NORMAL}."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}你的小雞種類是{PINK}聖誕小雞{NORMAL}."
+	}
+	
+	"Selected Bunny Type"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Your chicken type is {PINK}Bunny Chicken{NORMAL}."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}你的小雞種類是{PINK}兔兔小雞{NORMAL}."
+	}
+	
+	"Selected Pumpkin Type"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Your chicken type is {PINK}Pumpkin Chicken{NORMAL}."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}你的小雞種類是{PINK}南瓜小雞{NORMAL}."
+	}
+	
+	"Edit Saved"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {NORMAL}Edit has been saved."
+		"zho"			"{GREEN}[CHICKEN] {NORMAL}編輯已保存."
+	}
+	
+	"Must Alive"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {RED}You must be alive to use this command."
+		"zho"			"{GREEN}[CHICKEN] {RED}你必須活著才能使用這個指令."
+	}
+	
+	"Killed"
+	{
+		"#format"		""
+		"en"			"{GREEN}[CHICKEN] {RED}You chicken has been killed, your settings will apply in next round."
+		"zho"			"{GREEN}[CHICKEN] {RED}你必須活著才能使用這個指令."
+	}
+}	
