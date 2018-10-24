@@ -36,7 +36,7 @@ public Plugin myinfo =
 {
 	name = "[CS:GO] Chicken Pets",
 	author = "Kento",
-	version = "1.0",
+	version = "1.0.1",
 	description = "Create a chicken as pet.",
 	url = "http://steamcommunity.com/id/kentomatoryoshika/"
 };
@@ -139,7 +139,7 @@ void LoadConfig()
 		}
 		else
 		{
-			LogError("Unable to read tower settings of %s, ignoring...", name);
+			LogError("Unable to read settings of %s, ignoring...", name);
 		}
 	} while (kv.GotoNextKey());
 	
@@ -249,7 +249,12 @@ public Action Event_PlayerSpawn(Handle event, const char[] name, bool dontBroadc
 {
 	int client = GetClientOfUserId(GetEventInt(event, "userid"));
 	
-	if(IsValidClient(client))	SpawnChicken(client);
+	if(IsValidClient(client))	CreateTimer(0.1, SpawnDelay, client);
+}
+
+public Action SpawnDelay(Handle timer, int client)
+{
+	SpawnChicken(client);
 }
 
 public Action Event_PlayerDeath(Handle event, const char[] name, bool dontBroadcast)
